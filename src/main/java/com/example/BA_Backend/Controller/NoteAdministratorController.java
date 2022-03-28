@@ -25,6 +25,16 @@ public class NoteAdministratorController {
                 break;
             case "updatenote":
                 service.updateNote(note);
+                break;
+            case "updatemassnotes":
+                service.updateMassNotes();
+                break;
+            case "createmassnotes":
+                service.createMassNotes();
+                break;
+            case "deletemassnotes":
+                service.deleteMassNotes();
+                break;
             default:
                 break;
         }

@@ -26,4 +26,8 @@ public class NoteDataService {
     public void deleteNote(NoteModel note){
         noteRepository.deleteNote(note);
     }
+
+    public void createMassNotes(){noteRepository.createMassNotes();}
+    public void deleteMassNotes(){noteRepository.deleteMassNotes();}
+    public void updateMassNotes(){noteRepository.updateMassNotes();}
 }
